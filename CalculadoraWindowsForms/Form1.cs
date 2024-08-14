@@ -41,7 +41,7 @@ namespace CalculadoraWindowsForms
             if (numero2 != 0)
             {
                 double resultado = numero1 / numero2;
-                MessageBox.Show("Resultado: " + resultado.ToString(), "Resultado da Soma");
+                MessageBox.Show("Resultado da divisão é: " + resultado.ToString());
             }
             else
             {
